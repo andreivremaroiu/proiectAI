@@ -1,0 +1,10 @@
+Model,Accuracy,AUC,Recall (Minority Class),Macro Avg Recall
+Random Forests,0.784,0.8,,
+Decision Tree,0.786,0.729,,
+Logistic Regression,0.789,0.654,,
+MLP Classifier,0.78,0.779,,
+KNN,0.751,,0.61,
+Elastic Net,0.786,,0.64,
+SVM,0.778,,0.66,
+Tuned Random Forest,,0.808,0.46,0.68
+Random Forest w/ Class Weights,,0.808,0.78,0.78
